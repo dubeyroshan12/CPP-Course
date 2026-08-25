@@ -6,6 +6,9 @@ int main()
     int n;
     cout<<"Enter the Number:- ";
     cin>>n;
+
+//Print Alphabet Rectangle   ABCDE (In this way)
+
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
             cout<<char(j+64)<<" ";
@@ -13,7 +16,7 @@ int main()
         cout<<endl;  
     }
     cout<<endl; 
-
+//Print Alphabet Rectangle   AAAA  BBBB (In this way)
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
             cout<<char(i+64)<<" ";
@@ -21,6 +24,9 @@ int main()
         cout<<endl;  
     }
      cout<<endl; 
+     
+//Print small Alphabets
+
      int k;
      cout<<"Enter the vlue:-";
      cin>>k;
