@@ -1,0 +1,17 @@
+//WAP to print number from N to 1
+
+#include<iostream>
+using namespace std;
+void print(int n){
+    if(n==0){     //Base Case
+    return;
+    }
+
+    else{
+    cout<<n<<endl;
+    print(n-1);
+    }
+}
+int main(){
+    print(15);
+}
