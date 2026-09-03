@@ -1,4 +1,6 @@
-//WAP to print number from N to 1
+//WAP to print 1 to N without using extra variable
+
+
 
 #include<iostream>
 using namespace std;
@@ -8,8 +10,9 @@ void print(int n){
     }
 
     else{
-    cout<<n<<endl; //Work
-    print(n-1);   //call
+          print(n-1);  //Call
+        cout<<n<<endl; //Work
+   
     }
 }
 int main(){

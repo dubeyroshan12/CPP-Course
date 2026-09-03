@@ -1,0 +1,1 @@
+//WAP to print the sum from 1 to N (Parameterised)
